@@ -6,81 +6,106 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div>
-    <h3>1.Булочка</h3>
+<div class="burger-constructor">
+    <div class="burger-part">
+        <h3>1.Булочка</h3>
         <select id="bread">
             <option>Булочка бриошь (8 лей)</option>
+        </select>     
+    </div>
+    <div class="burger-part">
+        <h3>2.Мяско</h3>
+        <select id="meat">
+            <option>Говяжья котлета (35 лей)</option>
+            <option>Куриное филе пане (25 лей)</option>
+            <option>Куриное филе гриль (25 лей)</option>
         </select>
-    <h4>Добавить элемент</h4>
+        <div class="add-item">
+            <div class="plus-button"></div>
+            <h4>Добавить элемент</h4>
+        </div>
+    </div>
+    <div class="burger-part">
+        <h3>3.Соус нижний слой</h3>
+        <select id="first-souse">
+            <option>-</option>
+            <option>Кетчуп (4 лей)</option>
+            <option>Соус тартар (4 лей)</option>
+            <option>Майонец (4 лей)</option>
+            <option>Чеснок&BBQ (4 лей)</option>
+            <option>Срирача (4 лей)</option>
+            <option>Соус Classy (4 лей)</option>
+            <option>Чесночный соус (4 лей)</option>
+        </select>
+        <h4>Добавить элемент</h4>
+    </div>
+    <div class="burger-part">
+        <h3>4.Соус верхний слой</h3>
+        <select id="second-souse">
+            <option>-</option>
+            <option>Кетчуп (4 лей)</option>
+            <option>Соус тартар (4 лей)</option>
+            <option>Майонец (4 лей)</option>
+            <option>Чесночный соус (4 лей)</option>
+        </select>
+        <div class="add-item">
+            <div class="plus-button"></div>
+            <h4>Добавить элемент</h4>
+        </div>
+    </div>
+    <div class="burger-part">
+        <h3>5.Сыр</h3>
+        <select id="cheese">
+            <option>-</option>
+            <option>Сыр чеддер (10 лей)</option>
+            <option>Сыр дорблю (15 лей)</option>
+        </select>
+        <div class="add-item">
+            <div class="plus-button"></div>
+            <h4>Добавить элемент</h4>
+        </div>
+    </div>
+    <div class="burger-part">
+        <h3>6.Добавки</h3>
+        <select id="more">
+            <option>-</option>
+            <option>Хрустящий бекон (12 лей)</option>
+            <option>Глазунья (10 лей)</option>
+            <option>Лук марин (2 лей)</option>
+            <option>Лук карамель (4 лей)</option>
+            <option>Соленые огурцы (4 лей)</option>
+            <option>Свежие огурцы (4 лей)</option>
+            <option>Помидор (5 лей)</option>
+            <option>Айсберг (5 лей)</option>
+        </select>
+        <div class="add-item">
+            <div class="plus-button"></div>
+            <h4>Добавить элемент</h4>
+        </div>
+        <div class="personal-name">
+            <input type="text" name="personal-name" id="personal-name" placeholder="Дай имя своему бургеру 🍔">
+        </div>
+    </div>
+    <div class="receipt">
+        <div class="total-price">
+            <div class="burger-parts">
+
+            </div>
+            <h1>итого : </h1>
+            <div class="price"></div>
+            <div class="mass"></div>
+        </div>
+        <div class="craft-buttons">
+            <button type="button" class="add-to-cart">
+                <h4>добавить в корзину</h4>
+            </button>
+            <button type="button" class="reset-craft">Начни с нуля</button>
+        </div>
+    </div>
 </div>
-
-<div>
-    <h3>2.Мяско</h3>
-    <select id="meat">
-        <option>Говяжья котлета (35 лей)</option>
-        <option>Куриное филе пане (25 лей)</option>
-        <option>Куриное филе гриль (25 лей)</option>
-    </select>
-    <h4>Добавить элемент</h4>
+<div class="burger-representation">
+    
 </div>
-
-<div>
-    <h3>3.Соус нижний слой</h3>
-    <select id="first-souse">
-        <option>-</option>
-        <option>Кетчуп (4 лей)</option>
-        <option>Соус тартар (4 лей)</option>
-        <option>Майонец (4 лей)</option>
-        <option>Чеснок&BBQ (4 лей)</option>
-        <option>Срирача (4 лей)</option>
-        <option>Соус Classy (4 лей)</option>
-        <option>Чесночный соус (4 лей)</option>
-    </select>
-    <h4>Добавить элемент</h4>
-</div>
-
-<div>
-    <h3>4.Соус верхний слой</h3>
-    <select id="second-souse">
-        <option>-</option>
-        <option>Кетчуп (4 лей)</option>
-        <option>Соус тартар (4 лей)</option>
-        <option>Майонец (4 лей)</option>
-        <option>Чесночный соус (4 лей)</option>
-    </select>
-    <h4>Добавить элемент</h4>
-</div>
-
-<div>
-    <h3>5.Сыр</h3>
-    <select id="cheese">
-        <option>-</option>
-        <option>Сыр чеддер (10 лей)</option>
-        <option>Сфр дорблю (15 лей)</option>
-    </select>
-    <h4>Добавить элемент</h4>
-</div>
-
-<div>
-    <h3>6.Добавки</h3>
-    <select id="more">
-        <option>-</option>
-        <option>Хрустящий бекон (12 лей)</option>
-        <option>Глазунья (10 лей)</option>
-        <option>Лук марин (2 лей)</option>
-        <option>Лук карамель (4 лей)</option>
-        <option>Соленые огурцы (4 лей)</option>
-        <option>Свежие огурцы (4 лей)</option>
-        <option>Помидор (5 лей)</option>
-        <option>Айсберг (5 лей)</option>
-    </select>
-    <h4>Добавить элемент</h4>
-</div>
-
-<div>Итого:</div>
-
-
 <script src="script.js"></script>
 </body>
 </html>
