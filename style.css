@@ -1,0 +1,156 @@
+.burger-parts {
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/*Following properties are temporary so if you have a task to change colors/image/animations etc feel free to change them*/
+
+.burger-representation {
+    width: 720px;
+    height: 200px;
+}
+
+.burger-representation::before {
+    content: "";
+    display:block;
+    width: 250px;
+    height: 75px;
+    background-color: blue;
+}
+
+.burger-representation::after {
+    content: "";
+    display:block;
+    width: 250px;
+    height: 75px;
+    background-color: blue;
+}
+
+
+.brioche-bun {
+    width: 250px;
+    height: 75px;
+    background-color: white;
+}
+
+.beef-patty{
+    width: 250px;
+    height: 75px;
+    background-color: brown;
+}
+
+.breaded-chicken-fillet {
+    width: 250px;
+    height: 75px;
+    background-color: yellow;
+}
+
+.grilled-chicken-fillet {
+    width: 250px;
+    height: 75px;
+    background-color: yellowgreen;
+}
+
+.ketchup {
+    width: 250px;
+    height: 75px;
+    background-color: red;
+}
+
+.tartar-sauce{
+    width: 250px;
+    height: 75px;
+    background-color: bisque;
+}
+
+.mayonnaise {
+    width: 250px;
+    height: 75px;
+    background-color: gray;
+}
+
+.garlicBBQ-sauce {
+    width: 250px;
+    height: 75px;
+    background-color: beige;
+}
+
+.sriracha-sauce {
+    width: 250px;
+    height: 75px;
+    background-color: crimson;
+}
+
+.classy-sauce {
+    width: 250px;
+    height: 75px;
+    background-color: burlywood;
+}
+
+.garlic-sauce {
+    width: 250px;
+    height: 75px;
+    background-color: blanchedalmond;
+}
+
+.cheddar-cheese {
+    width: 250px;
+    height: 75px;
+    background-color: darksalmon;
+}
+
+.dorblu-cheese {
+    width: 250px;
+    height: 75px;
+    background-color: floralwhite;
+}
+
+.crispy-bacon {
+    width: 250px;
+    height: 75px;
+    background-color: firebrick;
+}
+
+.fried-egg {
+    width: 250px;
+    height: 75px;
+    background-color:antiquewhite;
+}
+
+.marinated-onion {
+    width: 250px;
+    height: 75px;
+    background-color: aquamarine;
+}
+
+.caramel-onion {
+    width: 250px;
+    height: 75px;
+    background-color: aqua;
+}
+
+.pickles {
+    width: 250px;
+    height: 75px;
+    background-color: green;
+}
+
+.cucumber {
+    width: 250px;
+    height: 75px;
+    background-color: forestgreen;
+}
+
+.tomato {
+    width: 250px;
+    height: 75px;
+    background-color: lightcoral;
+}
+
+.iceberg-lettuce {
+    width: 250px;
+    height: 75px;
+    background-color: lime;
+}
