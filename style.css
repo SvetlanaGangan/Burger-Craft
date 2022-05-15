@@ -5,152 +5,308 @@
     flex-direction: column;
 }
 
-/*Following properties are temporary so if you have a task to change colors/image/animations etc feel free to change them*/
+body{
+background-image: url("images/background.webp");
+}
 
 .burger-representation {
-    width: 720px;
+    width: 620px;
     height: 200px;
+    margin-left: 600px;
 }
 
 .burger-representation::before {
-    content: "";
+    content: url("images/brioche/chifla-brioche.svg");
     display:block;
     width: 250px;
-    height: 75px;
-    background-color: blue;
+    height: 110px;
+    background-repeat: no-repeat;
 }
 
 .burger-representation::after {
-    content: "";
+    content: url("images/brioche/chifla-brioche2.svg");
     display:block;
     width: 250px;
-    height: 75px;
-    background-color: blue;
+    height: 110px;
+    background-repeat: no-repeat;
 }
 
 
 .brioche-bun {
     width: 250px;
-    height: 75px;
+    height: 80px;
     background-color: white;
 }
 
 .beef-patty{
     width: 250px;
-    height: 75px;
-    background-color: brown;
+    height: 80px;
+    background-image: url("images/meat/pirjoala-de-vita.svg");
+    background-repeat: no-repeat;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
 }
+
+@keyframes example {
+    from {top: 0px;}
+    to {top: 200px; background-color: blue;}
+  }
 
 .breaded-chicken-fillet {
     width: 250px;
-    height: 75px;
-    background-color: yellow;
+    height: 80px;
+    background-image: url("images/meat/pirjoala-de-pui.svg");
+    background-repeat: no-repeat;
 }
 
 .grilled-chicken-fillet {
     width: 250px;
-    height: 75px;
-    background-color: yellowgreen;
+    height: 80px;
+    background-image: url("images/meat/pirjoala-de-pui.svg");
+    background-repeat: no-repeat;
 }
 
 .ketchup {
     width: 250px;
-    height: 75px;
-    background-color: red;
+    height: 80px;
+    background-image: url("images/sauce/ketchup.svg");
+    background-repeat: no-repeat;
 }
 
 .tartar-sauce{
     width: 250px;
-    height: 75px;
-    background-color: bisque;
+    height: 80px;
+    background-image: url("images/sauce/tartar-sos.svg");
+    background-repeat: no-repeat;
 }
 
 .mayonnaise {
     width: 250px;
-    height: 75px;
-    background-color: gray;
+    height: 80px;
+    background-image: url("images/sauce/maioneza.svg");
+    background-repeat: no-repeat;
 }
 
 .garlicBBQ-sauce {
     width: 250px;
-    height: 75px;
-    background-color: beige;
+    height: 80px;
+    background-image: ("images/sauce/tartar-sos.svg");
+    background-repeat: no-repeat;
 }
 
 .sriracha-sauce {
     width: 250px;
-    height: 75px;
-    background-color: crimson;
+    height: 80px;
+    background-image: url("images/sauce/sriracha.svg");
+    background-repeat: no-repeat;
 }
 
 .classy-sauce {
     width: 250px;
-    height: 75px;
-    background-color: burlywood;
+    height: 80px;
+    background-image: ("images/sauce/tartar-sos.svg");
+    background-repeat: no-repeat;
 }
 
 .garlic-sauce {
     width: 250px;
-    height: 75px;
-    background-color: blanchedalmond;
+    height: 80px;
+    background-image: ("images/sauce/tartar-sos.svg");
+    background-repeat: no-repeat;
 }
 
 .cheddar-cheese {
     width: 250px;
-    height: 75px;
-    background-color: darksalmon;
+    height: 80px;
+    background-image: url("images/cheese/cheddar.svg");
+    background-repeat: no-repeat;
 }
 
 .dorblu-cheese {
     width: 250px;
-    height: 75px;
-    background-color: floralwhite;
+    height: 80px;
+    background-image: url("images/cheese/cascaval-dorblu.svg");
+    background-repeat: no-repeat;
 }
 
 .crispy-bacon {
     width: 250px;
-    height: 75px;
-    background-color: firebrick;
+    height: 80px;
+    background-image: url("images/topping/bacon-crocant.svg");
+    background-repeat: no-repeat;
 }
 
 .fried-egg {
     width: 250px;
-    height: 75px;
-    background-color:antiquewhite;
+    height: 80px;
+    background-image: url("images/topping/ou-prajit.svg");
+    background-repeat: no-repeat;
 }
 
 .marinated-onion {
     width: 250px;
-    height: 75px;
-    background-color: aquamarine;
+    height: 80px;
+    background-image: url("images/topping/ceapa-marinata.svg");
+    background-repeat: no-repeat;
 }
 
 .caramel-onion {
     width: 250px;
-    height: 75px;
-    background-color: aqua;
+    height: 80px;
+    background-image: url("images/topping/ceapa-caramelizata.svg");
+    background-repeat: no-repeat;
 }
 
 .pickles {
     width: 250px;
-    height: 75px;
-    background-color: green;
+    height: 80px;
+    background-image: url("images/topping/castraveti-murati.svg");
+    background-repeat: no-repeat;
 }
 
 .cucumber {
     width: 250px;
-    height: 75px;
-    background-color: forestgreen;
+    height: 80px;
+    background-image: url("images/topping/castraveti-proaspeti.svg");
+    background-repeat: no-repeat;
 }
 
 .tomato {
     width: 250px;
-    height: 75px;
-    background-color: lightcoral;
+    height: 80px;
+    background-image: url("images/topping/rosii.svg");
+    background-repeat: no-repeat;
 }
 
 .iceberg-lettuce {
     width: 250px;
-    height: 75px;
-    background-color: lime;
+    height: 80px;
+    background-image: url("images/topping/salata-iceberg.svg");
+    background-repeat: no-repeat;
 }
+
+.add-to-cart{
+    border-radius: 5px;
+    background-color: rgb(234, 194, 61);
+    border-color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reset-craft{
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 183, 0);
+    font-family: 'Montserrat', sans-serif;
+    color: gold;
+}
+
+.add-item{
+    font-family: 'Montserrat', sans-serif;
+    color: gold;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    /* margin-left: 50px; */
+}
+
+.item-list{
+    border-radius: 3px;
+    background-color: transparent;
+    border-color: rgb(215, 168, 68);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+option{
+    background-color: rgb(247, 210, 129);
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+h3{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(247, 210, 129);
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.price{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(247, 210, 129);
+}
+
+.mass{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.total-price{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+#personal-name{
+    width: 170px;
+    height: 25px;
+}
+
+#more{
+    border-radius: 0;
+    border-width: 3px;
+    width: 220px;
+    height: 40px;
+}
+
+#cheese{
+    border-radius: 0;
+    border-width: 3px;
+    width: 220px;
+    height: 40px;
+}
+
+#secondSauce{
+    border-radius: 0;
+    border-width: 3px;
+    width: 220px;
+    height: 40px;
+}
+
+#firstSauce{
+    border-radius: 0;
+    border-width: 3px;
+    width: 220px;
+    height: 40px;
+}
+
+#meat{
+    border-radius: 0;
+    border-width: 3px;
+    width: 220px;
+    height: 40px;
+}
+
+#bread{
+    border-radius: 0;
+    border-width: 3px;
+    width: 220px;
+    height: 40px;
+}
+
+.craft-buttons{
+    margin-left: 50px;
+}
+
+.burger-part{
+    margin-left: 50px;
+}
+
+
+
+
