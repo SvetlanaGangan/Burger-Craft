@@ -12,7 +12,8 @@ background-image: url("images/background.webp");
 .burger-representation {
     width: 620px;
     height: 200px;
-    margin-left: 600px;
+    margin-left: 300px;
+    margin-top: 150px;
 }
 
 .burger-representation::before {
@@ -43,21 +44,23 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: url("images/meat/pirjoala-de-vita.svg");
     background-repeat: no-repeat;
+    position: relative;
     animation-name: example;
-    animation-duration: 3s;  
-    animation-fill-mode: forwards;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
-
-@keyframes example {
-    from {top: 0px;}
-    to {top: 200px; background-color: blue;}
-  }
 
 .breaded-chicken-fillet {
     width: 250px;
     height: 80px;
     background-image: url("images/meat/pirjoala-de-pui.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .grilled-chicken-fillet {
@@ -65,6 +68,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: url("images/meat/pirjoala-de-pui.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .ketchup {
@@ -72,6 +80,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: url("images/sauce/ketchup.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .tartar-sauce{
@@ -79,6 +92,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: url("images/sauce/tartar-sos.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .mayonnaise {
@@ -86,6 +104,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: url("images/sauce/maioneza.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .garlicBBQ-sauce {
@@ -93,6 +116,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: ("images/sauce/tartar-sos.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .sriracha-sauce {
@@ -100,6 +128,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: url("images/sauce/sriracha.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .classy-sauce {
@@ -107,6 +140,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: ("images/sauce/tartar-sos.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .garlic-sauce {
@@ -114,6 +152,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: ("images/sauce/tartar-sos.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .cheddar-cheese {
@@ -121,6 +164,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: url("images/cheese/cheddar.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .dorblu-cheese {
@@ -128,6 +176,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: url("images/cheese/cascaval-dorblu.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .crispy-bacon {
@@ -135,6 +188,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: url("images/topping/bacon-crocant.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .fried-egg {
@@ -142,6 +200,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: url("images/topping/ou-prajit.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .marinated-onion {
@@ -149,6 +212,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: url("images/topping/ceapa-marinata.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .caramel-onion {
@@ -156,6 +224,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: url("images/topping/ceapa-caramelizata.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .pickles {
@@ -163,6 +236,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: url("images/topping/castraveti-murati.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .cucumber {
@@ -170,6 +248,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: url("images/topping/castraveti-proaspeti.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .tomato {
@@ -177,6 +260,11 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: url("images/topping/rosii.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
 }
 
 .iceberg-lettuce {
@@ -184,6 +272,16 @@ background-image: url("images/background.webp");
     height: 80px;
     background-image: url("images/topping/salata-iceberg.svg");
     background-repeat: no-repeat;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
+}
+
+@keyframes example {
+    from {top: 200px;}
+    to {top: 0px;}
 }
 
 .add-to-cart{
@@ -199,6 +297,7 @@ background-image: url("images/background.webp");
     border-color: rgb(255, 183, 0);
     font-family: 'Montserrat', sans-serif;
     color: gold;
+    width: 160px;
 }
 
 .add-item{
@@ -206,7 +305,7 @@ background-image: url("images/background.webp");
     color: gold;
     margin-bottom: 30px;
     margin-top: 15px;
-    /* margin-left: 50px; */
+    margin-left: 20px;
 }
 
 .item-list{
@@ -249,64 +348,73 @@ h1{
 
 .total-price{
     margin-bottom: 20px;
-    margin-left: 50px;
+    margin-left: 135px;
 }
 
 #personal-name{
     width: 170px;
     height: 25px;
+    margin-bottom: 30px;
+    margin-left: 5px;
 }
 
 #more{
     border-radius: 0;
     border-width: 3px;
-    width: 220px;
-    height: 40px;
+    width: 320px;
+    height: 50px;
 }
 
 #cheese{
     border-radius: 0;
     border-width: 3px;
-    width: 220px;
-    height: 40px;
+    width: 320px;
+    height: 50px;
 }
 
 #secondSauce{
     border-radius: 0;
     border-width: 3px;
-    width: 220px;
-    height: 40px;
+    width: 320px;
+    height: 50px;
 }
 
 #firstSauce{
     border-radius: 0;
     border-width: 3px;
-    width: 220px;
-    height: 40px;
+    width: 320px;
+    height: 50px;
 }
 
 #meat{
     border-radius: 0;
     border-width: 3px;
-    width: 220px;
-    height: 40px;
+    width: 320px;
+    height: 50px;
 }
 
 #bread{
     border-radius: 0;
     border-width: 3px;
-    width: 220px;
-    height: 40px;
+    width: 320px;
+    height: 50px;
 }
 
 .craft-buttons{
-    margin-left: 50px;
+    margin-left: 130px;
+    margin-bottom: 50px;
 }
 
 .burger-part{
-    margin-left: 50px;
+    margin-left: 130px;
 }
 
+.receipt{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
 
-
-
+body{
+    display: flex;
+}
